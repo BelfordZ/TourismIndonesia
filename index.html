@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" content="initial-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Aliza Adventures</title>
+    
+    <meta name="description" content="Aliza Adventures is a tourism package distributer and wholesaler. We package trips to satisfy your need for adventure, cultural learning, and ecological exploration." />
+    <meta name="author" content="Zach Belford & Ali Almasoud" />
+    
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <script src="http://www.google.com/jsapi?key=ABQIAAAAuPsJpk3MBtDpJ4G8cqBnjRRaGTYH6UMl8mADNa0YKuWNNa8VNxQCzVBXTx2DYyXGsTOxpWhvIG7Djw" type="text/javascript"></script>
+    
+    <!-- We'll need to walk the DOM looking for features of a certain type later -->
+    <script src="http://earth-api-samples.googlecode.com/svn/trunk/lib/kmldomwalk.js" type="text/javascript"></script>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  
+  <body onload="init()">
+    <div id="impress">
+      
+      <div id="Who_Are_We" class="step" data-x="-5000" data-y="-5000" data-z="0" data-scale="10">
+        <q class="title">Aliza Tours</q><br>
+	  <i class="sub">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(Ali Almasoud <b>+</b> Zach Belford)</i>
+	</div>
+	
+	<div id="What_We_Do" class="step" data-x="-1600" data-y="-5000" data-z="0" data-scale="1" data-rotate="90">
+          <q class="underText"><b>...</b> Is a tourism package distributer and wholesaler. We offer Indonesian travel packages to satisfy your need for cultural learning, ecological exploration, and relaxation. </q>
+	</div>
+	
+	<div id="Goals" class="step" data-x="-10600" data-y="-5000" data-z="0" data-scale="1" data-rotate="90">
+	  <p>Our trip is designed with a few principle goals:</p>
+	  <ul>
+	    <li>Minimize social and cultural impact</li>
+	    <li>Minimizing environmental impact</li>
+	    <li>Provide locals of south Indonesia with direct income</li>
+	    <li>Offering amazing learning experiences at an affordable cost</li>
+	    <li>travel risk management</li>
+	  </ul>
+	</div>
+	  
+	<div id="The_Trip" class="step" data-x="0" data-y="-5000" data-z="0" data-scale="1">
+	  <span class="try">The Trip</span>
+	  <div id="sample-ui"></div>
+	  <div id="map3d" ></div>
+	</div>
+	
+	<div id="Java_Desc0" class="step" data-x="1500" data-y="-5000" data-z="0" data-scale="1">
+	  <p>The Island of Java: General</p>
+	  <ul>
+	    <li>Population: 135 Million</li>
+	    <li>One of most densly populated places in the world</li>
+	    <li>Capital City is Jakarta</li>
+	    <li>Formed as result of volcanic erruption</li>
+	    <li>Main Languages Javanese, Indonesian, English</li>
+	    <li>Majorily Muslim</li>
+	    <li>4 Provinces:</li>
+	    <ul>
+	      <li>West Java</li>
+	      <li>Central Java</li>
+	      <li>East Java</li>
+	      <li>Banten</li>
+	    </ul>
+	  </ul>
+	</div>
+	
+	<div id="Java_Desc1" class="step" data-x="1500" data-y="-4300" data-z="0" data-scale="1">
+	  <p>The Island of Java: History</p>
+	  <ul>
+	    <li>Home of much of Indonesia's history</li>
+	    <li>Center of Hindu-Buddhist empires</li>
+	    <li>Center of Indonesian struggle for independence (1930's & 40's)</li>
+	    <li>1811: Captured by the British</li>
+	    <li>End of 19th century: population explosion</li>
+	    <ul><li>Famine ensued as a result</li></ul>
+	    <li>Gained independence early 20th Century</li>
+	  </ul>
+	</div>
+
+	<div id="Culture0" class="step" data-x="-3000" data-y="-5000" data-z="0" data-scale="1">
+	  <p>The Culture</p>
+	    <iframe width="889" height="500" src="http://www.youtube.com/embed/sOLlsQ98hvg" frameborder="0" allowfullscreen></iframe>
+	  </div>	
+	  
+	  <div id="Culture1" class="step" data-x="-3000" data-y="-4350" data-z="0" data-scale="1">
+	    <p>The Culture</p>
+	    
+	  </div>
+	  
+	  <div id="overview" class="step" data-x="0" data-y="-1000" data-scale="15">
+	</div>
+	
+      </div>
+      
+      <script src="script.js"></script>
+      <script>impress().init();</script>
+      <script src="mapScripts.js"></script>
+    </body>
+  </html>
+  
