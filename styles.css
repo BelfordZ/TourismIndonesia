@@ -139,16 +139,17 @@ ul {
     font-size: 36px;
 }
 #The_Trip { 
+    z-index:12;
     height: 700px;
     width: 1200px;
     overflow:hidden;
 }
 #map3d {
-    height:100%;
-    width:115%;   
-    //-webkit-transform: scale(1);
-    //-webkit-transform: perspective()
+    height:90%;
+    //width:115%;   
+    //-webkit-transform: scale(.8);
 }
+
 #sample-ui {
     padding: 0px;
     margin: 0px;
